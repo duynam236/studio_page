@@ -1,0 +1,209 @@
+.screen {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    background-image: url("/resources/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 65.789%;
+}
+
+.navbar {
+    position: absolute;
+    height: 10%;
+    left: 5%;
+    top: 1%;
+}
+
+.menus {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+    right: 20%;
+    top: 4%;
+}
+
+.menu {
+    color: white;
+    margin-right: 10%;
+}
+
+.menu>a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu>a:hover {
+    color: rgb(251, 255, 0);
+}
+
+.on_img {
+    position: absolute;
+    color: white;
+    top: 33%;
+    left: 33%;
+}
+
+#cap_on_img1 {
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding: auto;
+}
+
+#cap_on_img2 {
+    font-size: 350%;
+    text-align: center;
+}
+
+.notetext {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+    background-color: rgb(226, 179, 26);
+    color: white;
+    font-size: 25px;
+    width: 30%;
+    height: 80px;
+    margin: 10% 35% ;
+    border: none;
+    border-radius: 10px;
+}
+
+.notetext:hover {
+    background-color: rgb(197, 155, 19);
+}
+
+.title_service {
+    padding: auto;
+}
+
+.title_service {
+    margin: 10%;
+}
+
+.service {
+    display: flex;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 179, 26);
+    border-radius: 50%;
+    margin: 5% auto 0 auto;
+}
+
+.item i {
+    font-size: 100px;
+    margin: 25% 20% 25% 20%;
+    color: white;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: grey;
+    font-size: 25px;
+}
+
+.portflolio {
+    display: flex;
+    margin: auto;
+}
+
+.portflolio div {
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    margin: auto;
+}
+
+.team div {
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team img {
+    width: 50%;
+    border-radius: 50%;
+    border: 10px solid rgb(158, 158, 158)
+}
+
+.radius {
+    border-radius: 50%;
+    background-color: rgb(48, 47, 47);
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 0 5px;
+}
+
+.radius i {
+    font-size: 30px;
+    margin: 25% 20% 25% 20%;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    margin: 20px 30% 20px ;
+}
+
+.portfolios, .teams {
+    background-color: rgb(250, 250, 250);
+}
+
+.portfolios, .teams, .logo, .footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+}
+
+.logo div {
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    margin: auto;
+}
+
+.footer div {
+    margin: auto;
+}
+
+.portfolios, .teams {
+    background-color: rgb(250, 250, 250);
+}
+
+.portfolios, .teams, .logo, .footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
